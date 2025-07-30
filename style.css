@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+header, footer {
+  background: #0033a0;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: #0033a0;
+  color: white;
+}
+.section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+.card, .team-member {
+  background: #e6e6e6;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.services-grid, .team-grid, .portfolio-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.portfolio-gallery img {
+  width: 180px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.footer-info {
+  font-size: 14px;
+  color: #dcdcdc;
+  margin-top: 10px;
+}
